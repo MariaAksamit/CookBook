@@ -1,0 +1,7 @@
+npm install
+npm install react-bootstrap bootstrap
+npm install @mdi/react @mdi/js
+npm install @svgr/webpack
+npm install react-svg
+npm install react-router-dom
+npm install ajv

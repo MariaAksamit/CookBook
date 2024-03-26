@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "af691554e6c7feed",
+    "name": "Gangsterský guláš",
+    "category": "Hlavní jídlo",
+    "image": "gang_goulash.jpg",
+    "description": "Pikantní guláš, který vás prožene:\nNa pánvi orestujeme nakrájenou cibuli a česnek. Přidáme hovězí maso a osolíme a opepříme. Přidáme nakrájená rajčata a papriku a směs promícháme. Přidáme vývar a pivo a necháme vařit na středním ohni po dobu 30 minut. Přidáme nakrájené chilli papričky a vaříme dalších 10 minut. Guláš podáváme s opečenými bagetkami.",
+    "ingredients": [
+      {
+        "id": "3w4x5y6z7a8b9c0d",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "1i2j3k4l5m6n7o8p",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "1k2l3m4n5o6p7q8r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "1w2x3y4z5a6b7c8d",
+        "amount": 2,
+        "unit": "stroužek"
+      },
+      {
+        "id": "5c6d7e8f9g0h1i2j",
+        "amount": 2,
+        "unit": "lžíce"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 2,
+        "unit": "špetka"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "1m2n3o4p5q6r7s8t",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "8f9g0h1i2j3k4l5m",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "1y2z3a4b5c6d7e8f",
+        "amount": 2,
+        "unit": "ks"
+      }
+    ]
+  },
+  {
+    "id": "f9996cfda5568262",
+    "name": "Letní salát z krvavých pomerančů",
+    "category": "Saláty",
+    "image": "salad_red_oranges.jpg",
+    "description": "Osvěžující salát s červenými pomeranči a olivami:\nOloupeme pomeranče a odkrojíme z nich i bílou část, aby vynikla jejich červená barva. Poté do misky vykrájíme jednotlivé měsíčky. Oloupanou cibuli nakrájíme na tenké plátky a přidáme k pomerančům. Do misky přidáme olivy a natrhané lístky máty. Z olivového oleje a citronové šťávy si připravíme zálivku. Pomeranče pečlivě promícháme se zálivkou a podle chuti osolíme a opepříme. Ideální je nechat salát chvilku odpočinout v lednici, ale v tomto případě máme pochopení pro okamžité debužírování. Salát podáváme s pečivem nebo jako přílohu k masu.",
+    "ingredients": [
+      {
+        "id": "9u0v1w2x3y4z5a6b",
+        "amount": 6,
+        "unit": "ks"
+      },
+      {
+        "id": "8t9u0v1w2x3y4z5a",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "5q6r7s8t9u0v1w2x",
+        "amount": 16,
+        "unit": "ks"
+      },
+      {
+        "id": "6r7s8t9u0v1w2x3y",
+        "amount": 10,
+        "unit": "lístky"
+      },
+      {
+        "id": "4n5o6p7q8r9s0t1u",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 6,
+        "unit": "lžíce"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 2,
+        "unit": "špetka"
+      }
+    ]
+  },
+  {
+    "id": "1eadc60f4d5bf8bf",
+    "name": "Útěk z Alcatrazu",
+    "category": "Nápoje",
+    "image": "alcatraz.jpg",
+    "description": "Silný pikantní nápoj, který vás dostane na nohy:\nPřipravte si větší sklenici s ledem. Nalijte do sklenice gin a šťávu z limetky. Přidejte zázvorový sirup a promíchejte. Dolijte sklenici tonicem a vše znovu důkladně promíchejte. Hotový nápoj ozdobte limetkou a ihned podávejte.",
+    "ingredients": [
+      {
+        "id": "0t1u2v3w4x5y6z7a",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "id": "3q4r5s6t7u8v9w0x",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "4p5q6r7s8t9u0v1w",
+        "amount": 10,
+        "unit": "ml"
+      },
+      {
+        "id": "2d3e4f5g6h7i8j9k",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "2p3q4r5s6t7u8v9w",
+        "amount": 100,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "ea32fb839257568d",
+    "name": "Úsměv kmotra",
+    "category": "Dezerty",
+    "image": "dessert_smile.jpg",
+    "description": "Sladký křupavý dezert, po jehož snězení se vám rozlije v duši věčný klid:\nMandle nasekáme na menší kousky a smícháme s cukrem moučkou a vanilkovým cukrem. Bílky ušleháme do tuha a vmícháme do směsi s mandlemi. Směs nalijeme do vymazaného pekáčku a pečeme v troubě rozehřáté na 180°C po dobu 20 minut. Zatímco se dezert peče, připravíme si polevu. Smícháme kakao, smetanu, cukr krupici, citronovou kůru, citronovou šťávu a máslo. Polevu necháme vychladnout v lednici. Hotový dezert ozdobíme polevou a poprášíme kakaem.",
+    "ingredients": [
+      {
+        "id": "6t7u8v9w0x1y2z3a",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "8r9s0t1u2v3w4x5y",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "5e6f7g8h9i0j1k2l",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "8j9k0l1m2n3o4p5q",
+        "amount": 1,
+        "unit": "lžička"
+      },
+      {
+        "id": "2f3g4h5i6j7k8l9m",
+        "amount": 2,
+        "unit": "lžíce"
+      },
+      {
+        "id": "1s2t3u4v5w6x7y8z",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "7q8r9s0t1u2v3w4x",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "3m4n5o6p7q8r9s0t",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "4n5o6p7q8r9s0t1u",
+        "amount": 1,
+        "unit": "lžíce"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 50,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "ce185eb2e7ad2e7c",
+    "name": "Sicilské rizoto",
+    "category": "Hlavní jídlo",
+    "image": "sicilian_risotto.jpg",
+    "description": "Chutný a jednoduchý recept pro každou příležitost:\nNamarinujeme kuřecí stehna ve směsi citronu, soli, pepře, čerstvě utřeného česneku a olivového oleje. Kuře s kořením dáme do trouby rozehřáté na 250°C. Na pánvi orestujeme nakrájenou cibuli s uzenou slaninou nakrájenou na kostičky a přidáme rýži. Rýži podlijeme bílým vínem a šťávou z rozpečeného kuřete. Osolíme, opepříme a dokořeníme dle chuti. Když je rýže téměř uvařená, přidáme sýr gorgonzola a poté máslo. Jakmile jsou kuřecí stehna upečená, rozložíme je na připravené krémové rizoto, ozdobíme nasekanou petrželkou a ihned podáváme.",
+    "ingredients": [
+      {
+        "id": "9m0n1o2p3q4r5s6t",
+        "amount": 8,
+        "unit": "ks"
+      },
+      {
+        "id": "2l3m4n5o6p7q8r9s",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "6x7y8z9a0b1c2d3e",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "id": "5g6h7i8j9k0l1m2n",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "id": "1w2x3y4z5a6b7c8d",
+        "amount": 2,
+        "unit": "stroužek"
+      },
+      {
+        "id": "1k2l3m4n5o6p7q8r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "6n7o8p9q0r1s2t3u",
+        "amount": 320,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "7g8h9i0j1k2l3m4n",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 2,
+        "unit": "špetka"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "7e8f9g0h1i2j3k4l",
+        "amount": 1,
+        "unit": "ks"
+      }
+    ]
+  },
+  {
+    "id": "j8i7h6g5f4e3d2cd",
+    "name": "Výkupné",
+    "category": "Saláty",
+    "image": "ransom.jpg",
+    "description": "Sladko-kyselý salát z čínského zelí, mrkve, ananasu, rozinek a ořechů, zalitý citronovým dresinkem:\nNakrájejte čínské zelí na tenké proužky a dejte je do velké mísy. Nastrouhejte mrkev a přidejte ji k zelí. Nakrájejte ananas na malé kousky a přidejte je k zelí a mrkvi. Přidejte rozinky a ořechy a promíchejte. V malé misce smíchejte šťávu a kůru z citrónu, cukr, olej a sůl. Promíchejte a nechte odstát. Před podáváním zalijte salát citronovým dresinkem a promíchejte.",
+    "ingredients": [
+      {
+        "id": "4z5a6b7c8d9e0f1g",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "9w0x1y2z3a4b5c6d",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "9f3c7a1b6d4e02e8",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "4l5m6n7o8p9q0r1s",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "3a4b5c6d7e8f9g0h",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "2l3m4n5o6p7q8r9s",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "6p7q8r9s0t1u2v3w",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "id": "1y2z3a4b5c6d7e8f",
+        "amount": 25,
+        "unit": "ml"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      }
+    ]
+  },
+  {
+    "id": "b3f8a7c9d4e2a1cd",
+    "name": "Falešný přítel",
+    "category": "Hlavní jídlo",
+    "image": "fake_friend.jpg",
+    "description": "Pečená jehněčí kotleta s rozmarýnem, česnekem a citrónem, podávaná s bramborovou kaší a zeleninovým salátem:\nV malé misce smíchejte rozmarýn, stroužky česneku, šťávu a kůru z citrónu, sůl, pepř a 25 ml olivového oleje. Promíchejte a nechte odstát. Kotlety potřete marinádou a nechte je v lednici alespoň hodinu. Rozehřejte troubu na 200 °C a vložte do ní pekáč s kotletami. Pečte asi 20 minut, dokud nejsou zlatavé a šťavnaté. Mezitím oloupejte a nakrájejte brambory na menší kousky. Dejte je do hrnce s vodou a vařte, dokud nezměknou. Sceděte a rozmačkejte vidličkou. Přidejte máslo, mléko, sůl a pepř a promíchejte. Zeleninový salát umyjte a osušte. Podle chuti ho ochuťte dresinkem. Podávejte kotlety s bramborovou kaší a zeleninovým salátem.",
+    "ingredients": [
+      {
+        "id": "1e2f3g4h5i6j7k8l",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "5m6n7o8p9q0r1s2t",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "1w2x3y4z5a6b7c8d",
+        "amount": 4,
+        "unit": "stroužek"
+      },
+      {
+        "id": "2l3m4n5o6p7q8r9s",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "3c4d5e6f7g8h9i0j",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "8v9w0x1y2z3a4b5c",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "3o4p5q6r7s8t9u0v",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "9s0t1u2v3w4x5y6z",
+        "amount": 50,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "k7j6i5h4g3f2e1cd",
+    "name": "Černá vdova",
+    "category": "Dezerty",
+    "image": "black_widow.jpg",
+    "description": "Na přípravu jednoduchý piškotový dort s třešňovou náplní a čokoládovou polevou, ozdobený pavučinkou z bílé čokolády:\nPotřete jeden piškotový korpus třešňovou marmeládou. Přiklopte druhým korpusem a urovnejte ho. Polejte dort čokoládovou polevou a nechte ji ztuhnout. Nakrájejte bílou čokoládu na malé kousky a dejte je do sáčku. Rozpusťte ji v mikrovlnné troubě nebo ve vodní lázni. Ustřihněte roh sáčku a vytvořte z čokolády pavučinku na vrchu dortu. Nechejte dort vychladnout a podávejte.",
+    "ingredients": [
+      {
+        "id": "9g0h1i2j3k4l5m6n",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "4f5g6h7i8j9k0l1m",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "3y4z5a6b7c8d9e0f",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "id": "6f7g8h9i0j1k2l3m",
+        "amount": 100,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "a088b01b2dc1bd5a",
+    "name": "Hell's chicken burger",
+    "category": "Hlavní jídlo",
+    "image": "hell_burger.jpg",
+    "description": "Šťavnaté burgery proložené křupavou slaninou, sýrem a jalapeňos:\nNa pánvi orestujeme nakrájenou cibuli. Kuřecí prsa nakrájíme na plátky a osolíme a opepříme. Na pánvi opečeme kuřecí plátky a slaninu. Hamburgerové housky rozpůlíme a opečeme na pánvi. Na spodní polovinu housky naneseme kečup, hořčici a majonézu. Na nanesené omáčky položíme kuřecí plátek, plátek sýru, slaninu, nakrájené rajčata a papričky jalapeňo. Na horní polovinu housky naneseme kečup, hořčici a majonézu. Hotový burger ihned podáváme.",
+    "ingredients": [
+      {
+        "id": "8l9m0n1o2p3q4r5s",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "0r1s2t3u4v5w6x7y",
+        "amount": 8,
+        "unit": "plátky"
+      },
+      {
+        "id": "5w6x7y8z9a0b1c2d",
+        "amount": 4,
+        "unit": "plátky"
+      },
+      {
+        "id": "1i2j3k4l5m6n7o8p",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "1k2l3m4n5o6p7q8r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "5y6z7a8b9c0d1e2f",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "4h5i6j7k8l9m0n1o",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "4r5s6t7u8v9w0x1y",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "1u2v3w4x5y6z7a8b",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "9c0d1e2f3g4h5i6j",
+        "amount": 4,
+        "unit": "ks"
+      }
+    ]
+  },
+  {
+    "id": "13490a01e0f59a28",
+    "name": "Bloody Mary",
+    "category": "Nápoje",
+    "image": "bloody_mary.jpg",
+    "description": "Koktejl s pikantní chutí a rajčatovým základem:\nPřipravte si větší sklenici s ledem. Nalijte do sklenice vodku, rajčatový džus a citronovou šťávu. Přidejte worcesterskou omáčku a tabasco. Přidejte sůl a pepř podle chuti. Vše důkladně promíchejte. Sklenici ozdobte celerovou natí. Hotový koktejl ihned podávejte.",
+    "ingredients": [
+      {
+        "id": "0l1m2n3o4p5q6r7s",
+        "amount": 45,
+        "unit": "ml"
+      },
+      {
+        "id": "2j3k4l5m6n7o8p9q",
+        "amount": 90,
+        "unit": "ml"
+      },
+      {
+        "id": "4n5o6p7q8r9s0t1u",
+        "amount": 15,
+        "unit": "ml"
+      },
+      {
+        "id": "2n3o4p5q6r7s8t9u",
+        "amount": 8,
+        "unit": "kapka"
+      },
+      {
+        "id": "1c2d3e4f5g6h7i8j",
+        "amount": 6,
+        "unit": "kapka"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 2,
+        "unit": "špetka"
+      },
+      {
+        "id": "9i0j1k2l3m4n5o6p",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "2p3q4r5s6t7u8v9w",
+        "amount": 100,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "2ffb380763c16c97",
+    "name": "Al Caponeho jizva",
+    "category": "Dezerty",
+    "image": "dessert_scar.jpg",
+    "description": "Ovocný dort, po kterém vám zmrzne úsměv na tváři:\nZmrzlinu necháme změknout. Tvaroh smícháme s cukrem moučkou a citronovou šťávou. Jahody, maliny a borůvky omyjeme a nakrájíme na menší kousky. Piškoty rozdrtíme na menší kousky. Vymažeme dortovou formu máslem. Na dno formy položíme piškoty. Na piškoty položíme vrstvu tvarohu. Na tvaroh položíme vrstvu zmrzliny. Na zmrzlinu položíme vrstvu ovocných kousků. Opakujeme, dokud nám nedojdou ingredience. Dort necháme ztuhnout v mrazáku po dobu 2 hodin. Hotový dort před podáním ozdobíme ovocem.",
+    "ingredients": [
+      {
+        "id": "7i8j9k0l1m2n3o4p",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "3e4f5g6h7i8j9k0l",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "8r9s0t1u2v3w4x5y",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "4n5o6p7q8r9s0t1u",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "8b9c0d1e2f3g4h5i",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "5s6t7u8v9w0x1y2z",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "0i9h8g7f6e5d4c3b",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "0h1i2j3k4l5m6n7o",
+        "amount": 200,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "68mb380763c16x87",
+    "name": "Skořicové prsty",
+    "category": "Dezerty",
+    "image": "cinnamon_fingers.jpg",
+    "description": "Voňavé kousky kynutého těsta s cukrem a skořicí, ideální jako sladká svačinka:\nV míse smíchejte mouku a droždí. V malém hrnci zahřejte mléko, 25 g cukru, 50 g másla a sůl, dokud se máslo nerozpustí. Nechte trochu zchladnout a přilijte k mouce. Přidejte vejce a vypracujte hladké těsto. Nechte kynout asi hodinu na teplém místě. Rozehřejte troubu na 180 °C a vymažte plech máslem. Rozválejte těsto na obdélník o tloušťce asi 1 cm. Potřete je zbylým máslem a posypte zbylým cukrem a skořicí. Nůžkami nebo pizzovým kolečkem nakrájejte těsto na proužky o šířce asi 2 cm. Každý proužek zkrouťte a položte na plech. Nechte ještě chvíli kynout. Pečte asi 15 minut, dokud prsty nejsou zlatavé. Nechte vychladnout na mřížce a podávejte.",
+    "ingredients": [
+      {
+        "id": "2v3w4x5y6z7a8b9c",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "3u4v5w6x7y8z9a0b",
+        "amount": 7,
+        "unit": "g"
+      },
+      {
+        "id": "8v9w0x1y2z3a4b5c",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "id": "6p7q8r9s0t1u2v3w",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "9k0l1m2n3o4p5q6r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "8p9q0r1s2t3u4v5w",
+        "amount": 2,
+        "unit": "lžička"
+      }
+    ]
+  },
+  {
+    "id": "21a3625a381c4cf5",
+    "name": "Mafiánské lasagne",
+    "category": "Hlavní jídlo",
+    "image": "maf_lasagna.jpg",
+    "description": "Tradiční zapékaný pokrm se sýrem, který zasytí každého:\nNa pánvi orestujeme nakrájenou cibuli a česnek. Přidáme hovězí maso a osolíme a opepříme. Přidáme nakrájená rajčata a bazalku a směs promícháme. Lasagne plátky uvaříme v osolené vodě. Vymažeme zapékací misku olivovým olejem. Na dno misky položíme lasagne plátky. Na lasagne plátky položíme vrstvu směsi s hovězím masem. Na směs s hovězím masem položíme vrstvu směsi s rajčaty. Opakujeme, dokud nám nedojdou ingredience. Posypeme směsí sýru parmezán, gouda a mozzarella. Pečeme v troubě rozehřáté na 180°C po dobu 30 minut. Ihned podáváme.",
+    "ingredients": [
+      {
+        "id": "1o2p3q4r5s6t7u8v",
+        "amount": 12,
+        "unit": "ks"
+      },
+      {
+        "id": "3w4x5y6z7a8b9c0d",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "1i2j3k4l5m6n7o8p",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "1k2l3m4n5o6p7q8r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "1w2x3y4z5a6b7c8d",
+        "amount": 2,
+        "unit": "stroužek"
+      },
+      {
+        "id": "9a0b1c2d3e4f5g6h",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "7y8z9a0b1c2d3e4f",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "8z9a0b1c2d3e4f5g",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "2z3a4b5c6d7e8f9g",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 2,
+        "unit": "špetka"
+      },
+      {
+        "id": "1a2b3c4d5e6f7g8h",
+        "amount": 10,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "c7d4a2f8b9e6d3ac",
+    "name": "Zmrazený účet",
+    "category": "Dezerty",
+    "image": "frozen_account.jpg",
+    "description": "Vanilková zmrzlina s kousky čokolády, oříšků a karamelu, posypaná strouhaným kokosem:\nNakrájejte čokoládu na malé kousky a dejte je do misky. Přidejte smetanu a rozpusťte ji v mikrovlnné troubě nebo ve vodní lázni. Promíchejte a nechte zchladnout. Nakrájejte oříšky na menší kousky a dejte je do suché pánve. Opékejte je na středním ohni, dokud nezačnou vonět. Nechte je vychladnout. Vezměte vanilkovou zmrzlinu a nechte ji trochu změknout. Přidejte k ní kousky čokolády, oříšků a karamelu a promíchejte. Dejte zpět do mrazáku a nechte ztuhnout. Před podáváním posypte zmrzlinu strouhaným kokosem a polijte čokoládovou polevou.",
+    "ingredients": [
+      {
+        "id": "7i8j9k0l1m2n3o4p",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "2x3y4z5a6b7c8d9e",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "4b5c6d7e8f9g0h1i",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "3g4h5i6j7k8l9m0n",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "5i6j7k8l9m0n1o2p",
+        "amount": 25,
+        "unit": "g"
+      },
+      {
+        "id": "1s2t3u4v5w6x7y8z",
+        "amount": 100,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "d6e3b4f9c8a7e5bd",
+    "name": "Zlatý podíl",
+    "category": "Hlavní jídlo",
+    "image": "golden_share.jpg",
+    "description": "Smažené krevety s kukuřicí, paprikou, celerem a arašídy, podávané s rýží a sladko-ostrou omáčkou:\nUvařte rýži podle návodu na obalu. Oceděte a nechte odstát. Očistěte krevety a osolte je. V pánvi rozehřejte olej a osmažte je z obou stran, dokud nezrůžoví. Vyjměte je a nechte je v teple. Na stejném oleji orestujte nakrájenou papriku a celer. Přidejte kukuřici a arašídy a smažte je, dokud nejsou měkké. Přidejte sladko-ostrou omáčku a promíchejte. Nechte chvíli provařit. Podávejte krevety s rýží a zeleninovou směsí.",
+    "ingredients": [
+      {
+        "id": "6j7k8l9m0n1o2p3q",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "7k8l9m0n1o2p3q4r",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "5c6d7e8f9g0h1i2j",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "8h9i0j1k2l3m4n5o",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "5a6b4c3d2e1f9g8h",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "6n7o8p9q0r1s2t3u",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "id": "9q0r1s2t3u4v5w6x",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "1y2z3a4b5c6d7e8f",
+        "amount": 50,
+        "unit": "ml"
+      }
+    ]
+  },
+  {
+    "id": "e5f4c3d2b1a9e8cd",
+    "name": "Zapomenutý dluh",
+    "category": "Dezerty",
+    "image": "forgotten_debt.jpg",
+    "description": "Palačinky plněné tvarohem, jablky, skořicí a hrozinkami, podávané s javorovým sirupem a máslem:\nV míse smíchejte mouku, mléko, vejce a sůl. Vyšlehejte hladké těsto. Nechte ho odpočinout asi 15 minut. V pánvi rozehřejte trochu oleje a naberte polévkovou lžíci těsta. Rozetřete ji na tenkou vrstvu a opečte z obou stran. Opakujte, dokud nevyčerpáte těsto. Palačinky nechte vychladnout. V míse rozmíchejte tvaroh s 25 g cukru. Oloupejte a nastrouhejte jablka. V malém hrnci zahřejte 25 g cukru s trochou vody a vařte, dokud nevznikne karamel. Přidejte jablka, skořici a hrozinky a vařte, dokud nezměknou. Na každou palačinku nanesete lžíci tvarohu a lžíci jablkové směsi. Zabalte je do trojúhelníku nebo rolády. Uložte je na pekáč. Rozehřejte troubu na 180 °C a vložte do ní pekáč s palačinkami. Pečte asi 10 minut, dokud nejsou teplé. Podávejte palačinky s javorovým sirupem a máslem.",
+    "ingredients": [
+      {
+        "id": "2v3w4x5y6z7a8b9c",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "id": "8v9w0x1y2z3a4b5c",
+        "amount": 500,
+        "unit": "ml"
+      },
+      {
+        "id": "9k0l1m2n3o4p5q6r",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "1y2z3a4b5c6d7e8f",
+        "amount": 50,
+        "unit": "ml"
+      },
+      {
+        "id": "3e4f5g6h7i8j9k0l",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "id": "7a8b9c0d1e2f3g4h",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "8p9q0r1s2t3u4v5w",
+        "amount": 1,
+        "unit": "lžička"
+      },
+      {
+        "id": "6z7a8b9c0d1e2f3g",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "6p7q8r9s0t1u2v3w",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "0d1e2f3g4h5i6j7k",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 50,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "f3e2d1c9b8a7e6cd",
+    "name": "Změna plánu",
+    "category": "Něco na zub",
+    "image": "change_of_plan.jpg",
+    "description": "Sendvič z bagety s uzeným lososem, sýrem, salátem, rajčetem a majonézou:\nRozkrojte bagetu napůl a opečte ji v troubě nebo v toustovači. Na spodní polovinu bagety nanesete vrstvu majonézy. Přidejte plátky uzeného lososa a sýra. Přidejte listy salátu a plátky rajčete. Přiklopte vrchní polovinou bagety a přeřízněte sendvič napůl. Podávejte teplý nebo studený.",
+    "ingredients": [
+      {
+        "id": "8h7g6f5e4d3c2b1a",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "6h7i8j9k0l1m2n3o",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "4v5w6x7y8z9a0b1c",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "7o8p9q0r1s2t3u4v",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "1i2j3k4l5m6n7o8p",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "4r5s6t7u8v9w0x1y",
+        "amount": 25,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "g2f1e9c8b7a6d5cd",
+    "name": "Poslední šance",
+    "category": "Dezerty",
+    "image": "last_chance.jpg",
+    "description": "Čokoládové brownie s ořechy a třešňovou náplní, podávaný se šlehačkou a čerstvým ovocem:\nRozehřejte troubu na 180 °C a vymažte plech máslem. Nakrájejte čokoládu na malé kousky a dejte je do misky. Přidejte máslo a rozpusťte je v mikrovlnné troubě nebo ve vodní lázni. Promíchejte a nechte zchladnout. V jiné misce vyšlehejte cukr a vejce do pěny. Přidejte mouku a kypřicí prášek a promíchejte. Přidejte čokoládovou směs a oříšky a promíchejte. Nalijte těsto na plech a urovnejte ho. Pečte asi 25 minut, dokud není pevné na dotek. Nechte vychladnout na mřížce. Rozetřete třešňovou marmeládu na vrch brownie. Vyšlehejte šlehačku a nanesete ji na marmeládu. Ozdobte čerstvým ovocem. Před podáváním nakrájejte brownie na čtverečky.",
+    "ingredients": [
+      {
+        "id": "2x3y4z5a6b7c8d9e",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "id": "6p7q8r9s0t1u2v3w",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "9k0l1m2n3o4p5q6r",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "2v3w4x5y6z7a8b9c",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "0n1o2p3q4r5s6t7u",
+        "amount": 1,
+        "unit": "lžička"
+      },
+      {
+        "id": "4b5c6d7e8f9g0h1i",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "4f5g6h7i8j9k0l1m",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "5a6b7c8d9e0f1g2h",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "7s8t9u0v1w2x3y4z",
+        "amount": 200,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "h1g9f8e7d6c5b4cd",
+    "name": "Mrtvý svědek",
+    "category": "Něco na zub",
+    "image": "dead_witness.jpg",
+    "description": "Smažený sýr obalený ve slanině a plněný jalapeňos, podávaný s bramborovými kroketami:\nNakrájejte sýr na malé kostky a vydlabejte z nich důlky. Naplňte je nakrájenými jalapeňos a zatlačte je dovnitř. Obalte každou kostku sýra v plátku slaniny a zajistěte ji párátkem. Rozklepejte vejce a dejte ho do misky. Do jiné misky dejte strouhanku. Obalte každou kostku sýra nejprve ve vajíčku a pak ve strouhance. Opakujte, dokud nejsou všechny obalené. V pánvi rozehřejte olej a smažte kostky sýra ze všech stran, dokud nejsou zlatavé a křupavé. Vyjměte je a nechte je okapat na papírové utěrce. Uvařte bramborové kroketky podle návodu na obalu. Podávejte kostky sýra s kroketkami a podle chuti s kečupem nebo hořčicí.",
+    "ingredients": [
+      {
+        "id": "4v5w6x7y8z9a0b1c",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "id": "0r1s2t3u4v5w6x7y",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "9c0d1e2f3g4h5i6j",
+        "amount": 4,
+        "unit": "ks"
+      },
+      {
+        "id": "9k0l1m2n3o4p5q6r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "2t3u4v5w6x7y8z9a",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "1y2z3a4b5c6d7e8f",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "2b3c4d5e6f7g8h9i",
+        "amount": 300,
+        "unit": "g"
+      }
+    ]
+  },
+  {
+    "id": "i9h8g7f6e5d4c3cd",
+    "name": "Zmizelý nepřítel",
+    "category": "Hlavní jídlo",
+    "image": "missing_enemy.jpg",
+    "description": "Mleté hovězí maso s cibulí, mrkví, vínem a bylinkami zapečené s bramborovou kaší:\nV pánvi orestujte nakrájenou cibuli a česnek. Přidejte mleté maso a osolte a opepříte. Smažte, dokud není maso propečené. Přidejte mrkev, víno, vývar, rajčatový protlak a bylinky. Přiveďte k varu a nechte vařit na mírném ohni asi 20 minut, dokud se omáčka nezredukuje. Mezitím oloupejte a nakrájejte brambory na menší kousky. Dejte je do hrnce s vodou a vařte, dokud nezměknou. Sceděte a rozmačkejte vidličkou. Přidejte 50 g másla, mléko, sůl a pepř a promíchejte. Rozehřejte troubu na 200 °C a vymažte pekáč máslem. Nalijte masovou směs na dno pekáče a urovnejte ji. Přikryjte vrstvou bramborové kaše a rozetřete ji. Pokud chcete, můžete ji posypat strouhaným sýrem. Pečte asi 25 minut, dokud není povrch do zlatova a křupavý. Podávejte horké s pečivem nebo zeleninovou přílohou.",
+    "ingredients": [
+      {
+        "id": "7u8v9w0x1y2z3a4b",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "id": "1k2l3m4n5o6p7q8r",
+        "amount": 1,
+        "unit": "ks"
+      },
+      {
+        "id": "9w0x1y2z3a4b5c6d",
+        "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "1w2x3y4z5a6b7c8d",
+        "amount": 2,
+        "unit": "stroužek"
+      },
+      {
+        "id": "0v1w2x3y4z5a6b7c",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "4x5y6z7a8b9c0d1e",
+        "amount": 200,
+        "unit": "ml"
+      },
+      {
+        "id": "3k4l5m6n7o8p9q0r",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "id": "0b1c2d3e4f5g6h7i",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "6d7e8f9g0h1i2j3k",
+        "amount": 1,
+        "unit": "špetka"
+      },
+      {
+        "id": "4d5e6f7g8h9i0j1k",
+        "amount": 2,
+        "unit": "lžička"
+      },
+      {
+        "id": "3c4d5e6f7g8h9i0j",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "id": "0x1y2z3a4b5c6d7e",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "id": "8v9w0x1y2z3a4b5c",
+        "amount": 100,
+        "unit": "ml"
+      },
+      {
+        "id": "4v5w6x7y8z9a0b1c",
+        "amount": 200,
+        "unit": "g"
+      }
+    ]
+  }
+]
