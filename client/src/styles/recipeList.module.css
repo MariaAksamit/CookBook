@@ -1,0 +1,15 @@
+.recipeList {
+    margin: 10px;
+    max-width: 100%;
+    overflow: auto;
+  }
+
+.colorText {
+    color: black;
+    font-weight: bold;
+}
+
+.recipeCard {
+  height: 445px; 
+  overflow: hidden;
+}
