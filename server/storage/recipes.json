@@ -57,8 +57,13 @@
         "unit": "ml"
       },
       {
-        "id": "1y2z3a4b5c6d7e8f",
+        "id": "0j1k2l3m4n5o6p7q",
         "amount": 2,
+        "unit": "ks"
+      },
+      {
+        "id": "8h7g6f5e4d3c2b1a",
+        "amount": 4,
         "unit": "ks"
       }
     ]

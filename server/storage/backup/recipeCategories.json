@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Hlavní jídlo masité",
+    "id": "c6ea7fg4d130d30b"
+  },
+  {
+    "name": "Hlavní jídlo bezmasité",
+    "id": "01ab1245cdfd125a"
+  },
+  {
+    "name": "Předkrm",
+    "id": "38ff7d609062d4ae"
+  },
+  {
+    "name": "Sladké pečivo",
+    "id": "24fd3db102c7803a"
+  },
+  {
+    "name": "Slané pečivo",
+    "id": "8116b19e1cb2cd11"
+  },
+  {
+    "name": "Polévky",
+    "id": "336371a4ffc275f1"
+  },
+  {
+    "name": "Příloha",
+    "id": "e0f1b7f6ccef2dff"
+  },
+  {
+    "name": "Těstoviny",
+    "id": "d8c7bad5d6038404"
+  },
+  {
+    "name": "Pizza",
+    "id": "dbde6285b23ca985"
+  },
+  {
+    "name": "Nápoje",
+    "id": "c03dc1dcd3cd99d2"
+  },
+  {
+    "name": "Saláty",
+    "id": "56e34bcbee627203"
+  },
+  {
+    "name": "Dezerty",
+    "id": "9464f5115896432f"
+  },
+  {
+    "name": "Něco na zub",
+    "id": "ecab30fec046fee3"
+  }
+]
