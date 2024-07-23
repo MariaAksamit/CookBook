@@ -13,3 +13,18 @@
   height: 445px; 
   overflow: hidden;
 }
+
+.recipeCardBody {
+  padding: 20px; /* Padding on all sides */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.recipeDescription {
+  overflow-y: auto; /* Scroll if content overflows */
+  flex-grow: 1; /* Allow it to take up remaining space */
+  margin-top: 10px; /* Spacing between sections */
+  padding-bottom: 20px; /* Padding at the bottom */
+}
