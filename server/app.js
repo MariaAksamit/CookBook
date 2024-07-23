@@ -3,6 +3,7 @@ const fs = require("fs");
 const express = require("express");
 const cors = require("cors");
 
+const categoryRouter = require("./controller/category-controller");
 const recipeRouter = require("./controller/recipe-controller");
 const ingredientRouter = require("./controller/ingredient-controller");
 
@@ -19,6 +20,7 @@ app.use(cors())
 
 app.use("/recipe", recipeRouter);
 app.use("/ingredient", ingredientRouter);
+app.use("/category", categoryRouter);
 
 
 app.get("/*", (req, res) => {
