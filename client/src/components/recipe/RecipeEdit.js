@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Modal, Button, Table, Form } from 'react-bootstrap';
 import Icon from "@mdi/react";
 import { mdiPencilOutline, mdiTrashCanOutline } from "@mdi/js";
@@ -6,7 +6,7 @@ import { mdiPencilOutline, mdiTrashCanOutline } from "@mdi/js";
 import RecipeIngredientAdd from "./RecipeIngredientAdd";
 import styles from "../../styles/recipeList.module.css";
 
-export default function RecipeEdit ({ recipe, ingredientList, categories, onClose, isEditModalShown }) {
+export default function RecipeEdit ({ recipe, ingredientList, categoryList }) {
   const [validated, setValidated] = useState(false);
   const [recipeEditCall, setRecipeEditCall] = useState({ state: "pending" });
   const [isModalShown, setShow] = useState(false);
@@ -27,11 +27,8 @@ export default function RecipeEdit ({ recipe, ingredientList, categories, onClos
     ingredients: initialIngredients,
   });
   
-  const handleCloseModal = () => {
-    setShow(false);
-    isEditModalShown = false;
-  };
-
+  const handleCloseModal = () => setShow(false);
+  
   const handleShowModal = () => {
     setFormData((prevFormData) => {
       const updatedIngredients = recipe
@@ -49,12 +46,6 @@ export default function RecipeEdit ({ recipe, ingredientList, categories, onClos
     });
     setShow(true);
   };
-
- useEffect(() => {
-    if (isEditModalShown) {
-      setShow(true);
-    }
-  }, [isEditModalShown]);
 
   const handleEditRecipe = async (e) => {
     try {
@@ -82,15 +73,8 @@ export default function RecipeEdit ({ recipe, ingredientList, categories, onClos
       });
 
       if (hasDuplicateIngredientNames) {
-        alert("Surovina už v receptu existuje. Vyberte jinou surovinu.");
+        alert("Surovina už existuje v recepte. Vyberte inú surovinu.");
         return;
-      }
-      
-      if (formData.ingredients.length === 0) {
-        const confirmed = window.confirm("Recept neobsahuje žádné suroviny. Chcete přesto recept uložit?");
-        if (!confirmed) {
-          return;
-        }
       }
 
     const updatedRecipe = {
@@ -129,10 +113,11 @@ export default function RecipeEdit ({ recipe, ingredientList, categories, onClos
     } catch (error) {
       setRecipeEditCall({ state: "error", error: error.message });
     } finally {
-      if (onClose) onClose();
+      window.location.reload();
     }
   };
 
+ 
   const getTableValues = (ingredientId) => {
     const ingredient = formData.ingredients.find((item) => item.id === ingredientId);
     return {
@@ -153,7 +138,7 @@ export default function RecipeEdit ({ recipe, ingredientList, categories, onClos
       (ingredient) => ingredient.id !== ingredientId && ingredient.name.toLowerCase() === updatedValues.name.toLowerCase()
     );
     if (isDuplicateInSelected || isDuplicateInTable) {
-      alert("Vybraná surovina již v tabulce existuje. Vyberte jinou surovinu.");
+      alert("Vybraná surovina již existuje v tabulce. Vyberte jinou surovinu.");
       return;
     }
     setFormData((prevFormData) => {
@@ -221,7 +206,7 @@ return (
 
     <Modal.Body>
       <Form.Group> 
-        <Form.Label className={`${styles.colorText} text-muted`}>Název</Form.Label> 
+        <Form.Label className={`${styles.colorText} text-muted`}>Názov</Form.Label> 
         <Form.Control 
           required 
           type="text" 
@@ -231,7 +216,7 @@ return (
           maxLength={50}
         /> 
         <Form.Control.Feedback type="invalid"> 
-          Název musí mít délku 3–50 znaků.
+          Název musí mít délku 3 - 50 znaků.
         </Form.Control.Feedback> 
       </Form.Group>
       <Form.Group> 
@@ -251,12 +236,14 @@ return (
           required 
         > 
         <option value="" disabled hidden> Vybrat kategorii </option>
-          {categories.map((category) => (
-        <option key={category} value={category}> {category} </option>
-        ))}
+          {categoryList
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((category) => (
+          <option key={category.id} value={category.name}> {category.name} </option>
+          ))}
         </Form.Control>
       </Form.Group>
-      <Form.Group> 
+        <Form.Group> 
         <Form.Label className={`${styles.colorText} text-muted`}>Postup</Form.Label> 
           <Form.Control 
             as="textarea" 
@@ -266,7 +253,7 @@ return (
             required 
           /> 
         <Form.Control.Feedback type="invalid"> 
-          Postup musí mít délku 3–1600 znaků.
+          Postup musí mít délku 3 - 1200 znaků.
         </Form.Control.Feedback> 
       </Form.Group>
       <div>
@@ -304,17 +291,10 @@ return (
                       </Form.Control>
                     </td>
                     <td>
-                    <Form.Control 
+                      <Form.Control 
                         type="number" 
                         value={cellValues.amount}
-                        onChange={(e) => {
-                          const newAmount = e.target.value;
-                          if (newAmount < 0) {
-                            alert("Množství suroviny nemůže být záporné.");
-                            return;
-                          }
-                          setTable(ingredient.id, { ...cellValues, amount: newAmount });
-                        }}
+                        onChange={(e) => setTable(ingredient.id, { ...cellValues, amount: e.target.value })}
                         required 
                       /> 
                     </td>
@@ -323,7 +303,6 @@ return (
                         type="text" 
                         value={cellValues.unit}
                         onChange={(e) => setTable(ingredient.id, { ...cellValues, unit: e.target.value })}
-                        maxLength={10}
                         required 
                       /> 
                     </td>
@@ -359,8 +338,8 @@ return (
       <Button 
         variant="outline-secondary"
         style={{ marginLeft: "8px"}}
-        onClick={onClose}>
-        Zavřít
+        onClick={handleCloseModal} >
+          Zavřít
       </Button>  
     </Modal.Footer>
   </Form>

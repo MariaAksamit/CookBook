@@ -1,7 +1,7 @@
 import React from "react";
 import Recipes from "./Recipes";
 
-function RecipeGridList({ recipeList, ingredientList, categories }) {
+function RecipeGridList({ recipeList, ingredientList, categoryList }) {
   return (
     <div className="row">
     {recipeList.map((recipe) => {
@@ -12,8 +12,8 @@ function RecipeGridList({ recipeList, ingredientList, categories }) {
       >
         <Recipes 
           recipe={recipe}
-          ingredientList={ingredientList}
-          categories={categories} 
+          ingredientList={ingredientList} 
+          categoryList={categoryList}
         />
        </div>
       );

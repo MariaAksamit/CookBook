@@ -7,7 +7,7 @@ import RecipeDetail from "./RecipeDetail";
 import RecipeEdit from "./RecipeEdit";
 import RecipeDelete from "./RecipeDelete";
 
-function RecipeTableList({ recipeList, ingredientList, categories }) {
+function RecipeTableList({ recipeList, ingredientList, categoryList }) {
   const [isModalShown, setShow] = useState(false);
   const [isDeleteModalShown, setDeleteModalShown] = useState(false);
   
@@ -42,7 +42,7 @@ return (
                 <RecipeEdit
                   recipe={recipe}
                   ingredientList={ingredientList}
-                  categories={categories}
+                  categoryList={categoryList}
                 />{" "}
                 <Modal show={isDeleteModalShown} onHide={handleCloseDeleteModal}>
                   <RecipeDelete 

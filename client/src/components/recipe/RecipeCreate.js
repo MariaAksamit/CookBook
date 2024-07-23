@@ -6,7 +6,7 @@ import { mdiPlus, mdiTrashCanOutline } from "@mdi/js";
 import RecipeIngredientAdd from "./RecipeIngredientAdd";
 import styles from "../../styles/recipeList.module.css";
 
-export default function RecipeCreate ({ handleShowModal, ingredientList, categories }) {
+export default function RecipeCreate ({ handleShowModal, ingredientList, categoryList }) {
   const [nameError, setNameError] = useState(null);
   const [descriptionError, setDescriptionError] = useState(null);
   const [isModalShown, setShow] = useState(false);
@@ -38,28 +38,17 @@ export default function RecipeCreate ({ handleShowModal, ingredientList, categor
       setNameError(null);
       setDescriptionError(null);
 
-      if (formData.name.length < 3 || formData.name.length > 50) {
-        setNameError("Název musí mať délku 3 - 50 znaků.");
+      if (formData.name.length < 3 || formData.name.length > 100) {
+        setNameError("Název musí mať délku 3 - 100 znaků.");
         return;
       }
 
+      // Kontrola postupu
       if (formData.description.length < 3 || formData.description.length > 1600) {
         setDescriptionError("Postup musí mať délku 3 - 1600 znaků.");
         return;
       }
 
-      if (!formData.category) {
-        alert("Vyberte prosím kategorii receptu.");
-        return;
-      }
-
-      if (formData.ingredients.length === 0) {
-        const confirmed = window.confirm("Recept neobsahuje žádné suroviny. Chcete přesto recept uložit?");
-        if (!confirmed) {
-          return;
-        }
-      }
-      
       const newRecipe = {
         name: formData.name,
         description: formData.description,
@@ -85,8 +74,6 @@ export default function RecipeCreate ({ handleShowModal, ingredientList, categor
 
       } catch (error) {
         setRecipeCall({ state: "error", error: error.message });
-      } finally {
-        //window.location.reload();
       }
   };
   
@@ -137,7 +124,7 @@ return (
         <Form.Control 
           required 
           type="text" 
-          placeholder="Název"
+          placeholder="Název *"
           value={formData.name} 
           onChange={(e) => setField("name", e.target.value)}
         /> 
@@ -151,7 +138,7 @@ return (
           type="text" 
           placeholder="URI obrázka"
           value={formData.image} 
-          onChange={(e) => setField("image", e.target.value)}
+         onChange={(e) => setField("image", e.target.value)}
        /> 
       </Form.Group>
       <Form.Group> 
@@ -162,9 +149,11 @@ return (
           onChange={(e) => {setField("category", e.target.value)}}                            
           required 
         > 
-        <option value="" disabled hidden> Vybrat kategorii </option>
-          {categories.map((category) => (
-        <option key={category} value={category}> {category} </option>
+        <option value="" disabled hidden> Vybrat kategorii *</option>
+          {categoryList
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map((category) => (
+        <option key={category.id} value={category.name}> {category.name} </option>
         ))}
         </Form.Control>
       </Form.Group>
@@ -172,7 +161,7 @@ return (
         <Form.Label className={`${styles.colorText} text-muted`}>Postup</Form.Label> 
         <Form.Control 
           as="textarea" 
-          placeholder="Postup"
+          placeholder="Postup *"
           style={{ height: '300px', overflow: 'auto' }}
           value={formData.description} 
           onChange={(e) => setField("description", e.target.value)}
@@ -182,6 +171,7 @@ return (
         <Form.Text className="text-danger"> {descriptionError} </Form.Text>
         )} 
       </Form.Group>
+      <br />
       <Table striped bordered hover>
         <thead>
           <tr className={styles.colorText}>

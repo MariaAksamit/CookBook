@@ -80,7 +80,6 @@ return (
 
     <Modal.Body>
       <Form.Group>
-        <Form.Label className={`${styles.colorText} text-muted`}>Vybrat surovinu</Form.Label>
         <Form.Control
           as="select"
           defaultValue={formData.name}
@@ -88,7 +87,7 @@ return (
           onChange={(e) => setField("selectedIngredient", e.target.value)}
           required
         >
-        <option value="" disabled hidden> Vybrat surovinu </option>
+        <option value="" disabled hidden> Vybrat surovinu *</option>
         {ingredientList
         .sort((a, b) => a.name.localeCompare(b.name))
         .map((ingredient) => (
@@ -96,29 +95,23 @@ return (
         ))}
         </Form.Control>
       </Form.Group>
+      <br />
       <Form.Group> 
         <Form.Control 
           type="number" 
-          placeholder="Množství"
+          placeholder="Množství *"
           value={formData.amount}
-          onChange={(e) => {
-            const newAmount = e.target.value;
-            if (newAmount < 0) {
-              alert("Množství suroviny nemůže být záporné.");
-              return;
-            }
-           setField("amount", newAmount);
-          }}
+          onChange={(e) => setField("amount", e.target.value)}
           required
         /> 
       </Form.Group>
+      <br />
       <Form.Group> 
         <Form.Control 
           type="text" 
-          placeholder="Jednotka"
+          placeholder="Jednotka *"
           value={formData.unit}
           onChange={(e) => setField("unit", e.target.value)}
-          maxLength={10}
           required
         /> 
       </Form.Group>

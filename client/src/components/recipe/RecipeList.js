@@ -1,6 +1,5 @@
 import React, { useState, useMemo } from "react";
 import { Button, Form, Navbar } from 'react-bootstrap';
-import NavDropdown from "react-bootstrap/NavDropdown";
 import Icon from "@mdi/react";
 import { mdiTable, mdiViewGridOutline, mdiMagnify } from "@mdi/js";
 
@@ -9,23 +8,21 @@ import RecipeGridList from "./RecipeGridList";
 import RecipeTableList from "./RecipeTableList";
 import RecipeCreate from "./RecipeCreate";
 
-function RecipeList({ recipeList, ingredientList }) {
+function RecipeList({ recipeList, ingredientList, categoryList, selectedCategory }) {
   const [isModalShown, setIsModalShown] = useState(false);  // Pridaný stav pre zobrazenie modálneho okna
   const [viewType, setViewType] = useState("grid");
   const isGrid = viewType === "grid";
   const [searchBy, setSearchBy] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("All"); 
-  const categories = ["All", "Hlavní jídlo", "Polévky", "Saláty", "Dezerty", "Nápoje", "Něco na zub"];
-
  
   const handleOpenModal = () => setIsModalShown(true);
 
   function filterRecipesByCategory(recipeList, selectedCategory) {
-    if (!selectedCategory || selectedCategory === "All") {
+    if (!selectedCategory) {
       return recipeList;
     }
+    // Vyfiltruj recepty, ktoré majú zhodnú kategóriu s selectedCategory.name
     const filteredRecipes = recipeList.filter((recipe) => {
-      return recipe.category === selectedCategory;
+      return recipe.category === selectedCategory.name;
     });
     return filteredRecipes;
   };
@@ -40,7 +37,7 @@ function RecipeList({ recipeList, ingredientList }) {
     });
     return filteredRecipes;
   }, [recipeList, searchBy, selectedCategory]);
-
+  
   function handleSearch(event) {   // funkce, kterou budeme spoustět na "odeslání" formuláře, tedy na stisknutí tlačítka vyhledat
     event.preventDefault();
     setSearchBy(event.target["searchInput"].value);
@@ -50,14 +47,11 @@ function RecipeList({ recipeList, ingredientList }) {
     if (!event.target.value) setSearchBy("");  // pokud ve vstupu nebude hodnota (uživatel stiskne x), bude zrušeno vyhledávání
   };
 
-
 return (
   <div>
     <Navbar collapseOnSelect expand="sm" bg="light">
       <div className="container-fluid">
-      <Navbar.Brand>         
-        {selectedCategory === "All" ? "Seznam receptů" : selectedCategory}
-      </Navbar.Brand>
+      <Navbar.Brand>Seznam receptů</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse style={{ justifyContent: "flex-end" }}>
       <Form className="d-flex" onSubmit={handleSearch}>
@@ -77,22 +71,9 @@ return (
           <Icon size={1} path={mdiMagnify} />
         </Button>
       </Form>
-      <NavDropdown
-        title={<Button variant="outline-secondary">
-         {selectedCategory === "All" ? "Všechny recepty" : selectedCategory}
-          </Button>}
-            id="basic-nav-dropdown"
-            onSelect={(selectedKey) => setSelectedCategory(selectedKey)}
-            style={{ marginRight: "8px" }}
-          >
-          {categories.map(category => (
-            <NavDropdown.Item key={category} eventKey={category}>{category}</NavDropdown.Item>
-              ))}
-      </NavDropdown>
         <Button
           className={"d-none d-md-block"}
           variant="outline-primary"
-          style={{ marginRight: "8px" }}
           onClick={() =>
             setViewType((currentState) => currentState === "grid" ? "table" : "grid")
           }
@@ -103,7 +84,7 @@ return (
         <RecipeCreate 
           handleShowModal={handleOpenModal}
           ingredientList={ingredientList}
-          categories={categories}
+          categoryList={categoryList}
         />
       </Navbar.Collapse>
       </div>
@@ -113,13 +94,13 @@ return (
       {filteredRecipeList.length ? (
         <div className="container">
         <div className={"d-block d-md-none"}>
-          <RecipeGridList recipeList={filteredRecipeList} ingredientList={ingredientList} categories={categories}/>
+          <RecipeGridList recipeList={filteredRecipeList} ingredientList={ingredientList} categoryList={categoryList}/>
         </div>
         <div className={"d-none d-md-block"}>
           {isGrid ? (
-            <RecipeGridList recipeList={filteredRecipeList} ingredientList={ingredientList} categories={categories}/>
+            <RecipeGridList recipeList={filteredRecipeList} ingredientList={ingredientList} categoryList={categoryList}/>
           ) : (
-            <RecipeTableList recipeList={filteredRecipeList} ingredientList={ingredientList} categories={categories}/>
+            <RecipeTableList recipeList={filteredRecipeList} ingredientList={ingredientList} categoryList={categoryList}/>
           )}
         </div>
     </div>
@@ -127,7 +108,7 @@ return (
     ) : (
 
     <div style={{ margin: "16px auto", textAlign: "center" }}>
-      Nejsou žádné recepty k zobrazení.
+      Nejsou žádné recepty ke zobrazení.
     </div>
     )}
     </div>
