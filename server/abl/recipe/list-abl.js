@@ -1,14 +1,13 @@
 const fs = require("fs");
 const path = require("path");
 const RecipeDao = require("../../dao/recipe-dao");
-let dao = new RecipeDao(
-  path.join(__dirname, "..", "..", "storage", "recipes.json")
-);
+
+let dao = new RecipeDao(path.join(__dirname, "..", "..", "storage", "recipes.json"));
 
 async function ListAbl(req, res) {
   try {
     // Přečte obsah souboru recipes.json
-    const recipesData = fs.readFileSync("./storage/recipes.json", "utf-8");
+    const recipesData = fs.readFileSync(path.join(__dirname, "..", "..", "storage", "recipes.json"), "utf-8");
     const recipes = JSON.parse(recipesData);
     
     // Odešle seznam receptů jako odpověď na požadavek
@@ -18,6 +17,5 @@ async function ListAbl(req, res) {
     res.status(500).send("Internal Server Error");
   }
 }
-
 
 module.exports = ListAbl;

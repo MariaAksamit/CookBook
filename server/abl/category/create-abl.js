@@ -1,14 +1,14 @@
 const path = require("path");
 const Ajv = require("ajv").default;
-const IngredientDao = require("../../dao/ingredient-dao");
-let dao = new IngredientDao(
-  path.join(__dirname, "..", "..", "storage", "ingredients.json")
+const CategoryDao = require("../../dao/category-dao");
+let dao = new CategoryDao(
+  path.join(__dirname, "..", "..", "storage", "recipeCategories.json")
 );
 
 let schema = {
   type: "object",
   properties: {
-    name: { type: "string", minLength: 3, maxLength: 100 }
+    name: { type: "string", minLength: 3, maxLength: 50 }
   },
   required: ["name"]
 };
@@ -18,9 +18,9 @@ async function CreateAbl(req, res) {
     const ajv = new Ajv();
     const valid = ajv.validate(schema, req.body);
     if (valid) {
-      let ingredient = req.body;
-      ingredient = await dao.createIngredient(ingredient);
-      res.json(ingredient);
+      let category = req.body;
+      category = await dao.createCategory(category);
+      res.json(category);
     } else {
       res.status(400).send({
         errorMessage: "Vstupní data neprošla validací",

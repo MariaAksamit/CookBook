@@ -13,10 +13,10 @@ let ingredientDao = new IngredientDao(
 let schema = {
   type: "object",
   properties: {
-    name: { type: "string" },
-    description: { type: "string" },
+    name: { type: "string", minLength: 3, maxLength: 100 },
+    description: { type: "string", minLength: 3, maxLength: 1600 },
     category: { type: "string" },
-    imgUri: { type: "string" },
+    image: { type: "string" },
     ingredients: {
       type: "array",
       minItems: 0,
@@ -25,15 +25,15 @@ let schema = {
           type: "object",
           properties: {
             id: { type: "string" },
-            amount: { type: "number" },
-            unit: { type: "string" },
+            amount: { type: "number", minimum: 1, maximum: 5000 },
+            unit: { type: "string", minLength: 1, maxLength: 25 },
           },
-         // required: ["id", "amount", "unit"],
+          required: ["id", "amount", "unit"], // ingredient items nejsou povinné, pokud však existují, musí mít všechny atributy
         }
       ]
     }
   },
-  required: ["name", "description", {/*"ingredients"*/}],
+  required: ["name", "category", "description", {/*"ingredients"*/}],
 };
 
 async function CreateAbl(req, res) {
@@ -44,23 +44,27 @@ async function CreateAbl(req, res) {
       let recipe = req.body;
       if (recipe.ingredients) {
 
-      for(let ingredient of recipe.ingredients) {
-        const exists = await ingredientDao.getIngredient(ingredient.id);
+        for(let ingredient of recipe.ingredients) {
+          const exists = await ingredientDao.getIngredient(ingredient.id);
 
-        if (!exists) {
-          res.status(400).send({
-            errorMessage: "ingredient with id " + ingredient.id + " does not exist",
-            params: req.body,
-          });
-          return; 
+          if (!exists) {
+            res.status(400).send({
+              errorMessage: "Ingredience s ID " + ingredient.id + " neexistuje",
+              params: req.body,
+            });
+            return; 
+          }
         }
       }
-    }
+      // pokud cesta k obrázku (název souboru) není definovaná, použije se defaultní obrázek
+      if (recipe.image === "") {
+        recipe.image = "meat_heads.jpg";
+      }
       recipe = await dao.createRecipe(recipe);
       res.json(recipe);
     } else {
       res.status(400).send({
-        errorMessage: "validation of input failed",
+        errorMessage: "Vstupní data neprošla validací",
         params: req.body,
         reason: ajv.errors,
       });

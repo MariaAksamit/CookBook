@@ -1,15 +1,15 @@
 const path = require("path");
 const Ajv = require("ajv").default;
-const IngredientDao = require("../../dao/ingredient-dao");
-let dao = new IngredientDao(
-  path.join(__dirname, "..", "..", "storage", "ingredients.json")
+const CategoryDao = require("../../dao/category-dao");
+let dao = new CategoryDao(
+  path.join(__dirname, "..", "..", "storage", "recipeCategories.json")
 );
 
 let schema = {
   type: "object",
   properties: {
     id: { type: "string" },
-    name: { type: "string", minLength: 3, maxLength: 100 },
+    name: { type: "string", minLength: 3, maxLength: 50 },
   },
   required: ["id", "name"],
 };
@@ -17,15 +17,15 @@ let schema = {
 async function UpdateAbl(req, res) {
   try {
     const ajv = new Ajv();
-    let ingredient = req.body;
-    const valid = ajv.validate(schema, ingredient);
+    let category = req.body;
+    const valid = ajv.validate(schema, category);
     if (valid) {
-      ingredient = await dao.updateIngredient(ingredient);
-      res.json(ingredient);
+      category = await dao.updateCategory(category);
+      res.json(category);
     } else {
       res.status(400).send({
         errorMessage: "Vstupní data neprošla validací",
-        params: ingredient,
+        params: category,
         reason: ajv.errors,
       });
     }

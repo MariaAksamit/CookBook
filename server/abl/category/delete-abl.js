@@ -1,8 +1,8 @@
 const path = require("path");
 const Ajv = require("ajv").default;
-const RecipeDao = require("../../dao/recipe-dao");
-let dao = new RecipeDao(
-  path.join(__dirname, "..", "..", "storage", "recipes.json")
+const CategoryDao = require("../../dao/category-dao");
+let dao = new CategoryDao(
+  path.join(__dirname, "..", "..", "storage", "recipeCategories.json")
 );
 
 let schema = {
@@ -18,12 +18,12 @@ async function DeleteAbl(req, res) {
   const valid = ajv.validate(schema, req.body);
   try {
     if (valid) {
-      const recipeId = req.body.id;
-      await dao.deleteRecipe(recipeId);
+      const categoryId = req.body.id;
+      await dao.deleteCategory(categoryId);
       res.json({});
     } else {
       res.status(400).send({
-        errorMessage: "validation of input failed",
+        errorMessage: "Vstupní data neprošla validací",
         params: req.body,
         reason: ajv.errors,
       });
