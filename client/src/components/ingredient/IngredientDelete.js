@@ -61,7 +61,7 @@ return (
   <Modal.Footer>
     {!isUsed() && (
       <Button variant="danger" onClick={handleConfirmDelete}>
-        Ano, vymazat
+        Áno, vymazat
       </Button>
     )}
     <Button variant="secondary" onClick={onClose}>

@@ -83,7 +83,7 @@ return (
         ))
       ) : (
         <div style={{ margin: "16px auto", textAlign: "center" }}>
-          Nejsou žádné suroviny k zobrazení.
+          Nejsou žádné suroviny ke zobrazení.
         </div>
       )}
 
